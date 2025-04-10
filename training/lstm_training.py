@@ -52,7 +52,7 @@ else:
                 model.save(model_name)
                 joblib.dump(scaler, scaler_name)
 
-                print(f"✅ Model trained and saved as: {model_name}")
+                prk(f"✅ Model trained and saved as: {model_name}")
             except Exception as e:
                 print(f"❌ Training failed: {e}")
 

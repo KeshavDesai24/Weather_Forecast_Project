@@ -1,0 +1,41 @@
+# Byte-compiled / cache / temp files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings (optional)
+.vscode/
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Model files and checkpoints
+models/
+*.h5
+*.pkl
+*.joblib
+*.pt
+
+
+
+# Environment variable files
+.env
+*.env
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Python compiled files
+*.egg-info/
+dist/
+build/
