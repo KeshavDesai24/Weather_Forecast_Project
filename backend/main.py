@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException, Query
 from keras.models import load_model
 import os
 
-app = FastAPI()
+app = FastAPI() #Initializing FastAPI
 
 @app.get("/")
 def read_root():
